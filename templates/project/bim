@@ -1,0 +1,5 @@
+#!/usr/bin/node
+require('bimo')
+  .bim({
+    cwd: process.cwd(),
+  })
