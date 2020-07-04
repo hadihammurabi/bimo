@@ -1,16 +1,23 @@
 {
   "name": "bimo",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "An efficiency-powered and diligent web framework for lazy developers",
   "main": "index.js",
   "scripts": {
   },
   "bin": {
     "bim": "bim.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "nodejs",
+    "fastify",
+    "knexjs",
+    "objectionjs",
+    "edgejs",
+    "commanderjs"
+  ],
+  "author": "Hadi Hidayat Hammurabi <hadihammurabi@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "commander": "^5.1.0",
     "edge.js": "^1.1.4",
