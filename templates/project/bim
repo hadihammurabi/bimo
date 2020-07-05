@@ -1,5 +1,7 @@
 #!/usr/bin/node
-require('bimo')
-  .bim({
-    cwd: process.cwd(),
-  })
+const Bimo = require('bimo')
+const project = new Bimo({
+  cwd: process.cwd(),
+  ...require('./bimo.config')
+})
+project.bim(process.argv)

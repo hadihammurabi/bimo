@@ -1,5 +1,6 @@
 #!/usr/bin/node
-require('.')
-  .bim({
-    cwd: process.cwd(),
-  })
+const Bimo = require('.')
+const project = new Bimo({
+  cwd: process.cwd(),
+})
+project.bim()
